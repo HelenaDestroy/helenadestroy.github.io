@@ -32,7 +32,7 @@ border-bottom-style: double;
 .buttons {
 margin-left: 110px;
 display: flexbox;
-height: 80px;
+height: 60px;
 width: 100%;
 }
 .button { 
@@ -109,7 +109,7 @@ font-family:Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
 footer  {
 display: flexbox;
 width: 100%;
-min-height: 9vh
+min-height: 9vh;
 height: 10vh;
 border-top: 10px;
 border-top-style: double;
@@ -118,7 +118,6 @@ footer > p {
 text-align: right;
 height: 100%;
 margin-top: 20px;
-margin-left: 40px;
 font-size: 1.6rem;
 font-weight: bold;
 }    
