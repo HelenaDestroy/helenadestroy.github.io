@@ -33,19 +33,19 @@ border-bottom-style: double;
 }
 .button { 
     width: 20%; height: 90%;
-    margin-right: 10px;
-    margin-top: 20px;
-    height: 70px;
-    width: 40%;
+    margin-right: 5px;
+    margin-top: 15px;
+    height: 60px;
+    width: 30%;
     background-color: rgb(36, 35, 35);
     color: white;
-    font-weight: bold;
+    font-weight: lighter;
     border-radius: 16px;
     box-shadow: cadetblue;
     border-color: cadetblue;
     border-width: 8px;
     font-family:Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
-    font-size: 1.3rem;
+    font-size: 1.2rem;
 }   
 /*main */
 main {
