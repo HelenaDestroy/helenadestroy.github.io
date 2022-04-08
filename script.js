@@ -3,7 +3,7 @@ function cambioIdioma()
 { window.open(["index.html"],["Resumen, English version"]);
 }
 
-const english= document.getElementById("ingles");
+const ingles= document.getElementById("ingles");
 ingles.addEventListener("click", cambioIdioma);
  
 //volver a castellano
