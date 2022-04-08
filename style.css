@@ -1,5 +1,7 @@
 /*general */
-*{  box-sizing: border-box;margin: 0;}
+*{  box-sizing: border-box;
+    padding: 0;
+    margin: 0;}
 html {     font-size: 62,5%;
     background-image: url('https://media.istockphoto.com/photos/the-gray-and-silver-are-light-black-with-white-the-gradient-is-the-picture-id1322292759?b=1&k=20&m=1322292759&s=170667a&w=0&h=FtcK2R11RjeMUkMUWu5kxFmYR8pY-G8OLs99PnWIJpE=');
     background-size:cover;
@@ -22,7 +24,7 @@ border-bottom-style: double;
    .div-header > h1 { font-size: 4.2rem; margin-top: 30px;}
 .div-header > h2 {
     width: 100%;
-    margin-top: 30px;
+    margin-top: 20px;
     text-align: center;
     font-size: 3.2rem;
     font-style: italic;
@@ -30,7 +32,6 @@ border-bottom-style: double;
 .buttons { display: inline-block; 
 }
 .button { 
-    
     width: 20%; height: 90%;
     margin-right: 10px;
     margin-top: 20px;
@@ -48,7 +49,7 @@ border-bottom-style: double;
 }   
 /*main */
 main {
-    width: 100%;
+    width: 90%;
     display: flexbox;
     flex-direction: row
 } 
@@ -102,14 +103,17 @@ font-family:Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
 footer  {
 display: flex;
 width: 100%;
+min-height: 9vh
 height: 10vh;
 border-top: 10px;
 border-top-style: double;
 }
 footer > p {
-margin-left: 1680px;
-height: 9vh;
-margin-top: 40px;
+float:left;
+text-align: left;
+height: 100%;
+margin-top: 20px;
+margin-left: 40px;
 font-size: 1.6rem;
 font-weight: bold;
 }    
