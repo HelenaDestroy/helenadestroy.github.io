@@ -12,10 +12,10 @@ html {     font-size: 62,5%;
 header {
 display: flexbox;
 width: 100%;
+max-width: 95%;
 height: 20vh;
 border-bottom: 10px;
 border-bottom-style: double;
-max-width: 90%;
 }
 .div-header{
     width: 100%;
@@ -56,11 +56,12 @@ align-content: center;
 }   
 /*main */
 main {
-    width: 90%;
+    max-width: 100%;
+    width: 100%;
     display: flexbox;
     flex-direction: row
 } 
-h2 {
+h2, .career-objetive > h3 {
     text-decoration-line: underline;
     text-decoration-style: double;
     text-decoration-thickness: 5px;
@@ -88,7 +89,7 @@ width: auto;
  border-radius: 16px;
  border-style: double;
  border-width: 15px;
- border-color: rgb(38, 39, 40);
+ border-color: rgb(226, 72, 175);
   }
   section + h3{font-size: 1.6rem;
     font-family: Georgia, 'Times New Roman', Times, serif;}
@@ -116,7 +117,7 @@ margin-bottom: 40px;
 margin-top: 50px;
 font-family:Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
  font-size: 2.0rem;
- margin-left:370px;
+ margin-left:380px;
  text-align: justify;
  display: inline-block;
  text-align: justify;
@@ -126,16 +127,20 @@ font-family:Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
 footer  {
 display: flexbox;
 width: 100%;
-max-width: 90%;
+max-width: 100%;
 min-height: 9vh;
 height: 10vh;
 border-top: 10px;
 border-top-style: double;
+align-items: center;
+justify-content: center;
 }
 footer > p {
 text-align: right;
-height: 100%;
-margin-top: 20px;
+margin-right: 60px;
+text-justify: auto;
+height: 90%;
+margin-top: 30px;
 font-size: 1.6rem;
 font-weight: bold;
 }    
