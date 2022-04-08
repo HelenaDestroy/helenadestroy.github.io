@@ -9,7 +9,7 @@ ingles.addEventListener("click", cambioIdioma);
 //volver a castellano
 function cambioCastellano() { window.open(["index_e.html"],["Curriculum Vitae, Versión en Español"]);
 }
-const idioma = document.getElementById("castellano");
+const castellano = document.getElementById("castellano");
 castellano.addEventListener("click", cambioCastellano);
 
 
