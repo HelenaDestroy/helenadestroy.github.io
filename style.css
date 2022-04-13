@@ -11,9 +11,9 @@ html {     font-size: 62,5%;
 
 header {
 display: flexbox;
-width: 100%;
+width: 95%;
 max-width: 95%;
-height: 20vh;
+height: 25vh;
 border-bottom: 10px;
 border-bottom-style: double;
 }
@@ -22,7 +22,7 @@ border-bottom-style: double;
     text-align: center;
     width: 100%;
      }
-   .div-header > h1 { font-size: 4.2rem; margin-top: 30px;}
+   .div-header > h1 { font-size: 3.8rem; margin-top: 30px;}
 .div-header > h2 {
     width: 100%;
     margin-top: 8px;
@@ -56,8 +56,8 @@ align-content: center;
 }   
 /*main */
 main {
-    max-width: 100%;
-    width: 100%;
+    max-width: 95%;
+    width: 95%;
     display: flexbox;
     flex-direction: row
 } 
@@ -65,7 +65,7 @@ h2, .career-objetive > h3 {
     text-decoration-line: underline;
     text-decoration-style: double;
     text-decoration-thickness: 5px;
-    text-decoration-color: rgb(167, 128, 167);  
+    text-decoration-color: rgb(219, 139, 189);  
 }
 .personal-details {text-decoration: none;
     display: inline-block; 
@@ -89,7 +89,7 @@ width: auto;
  border-radius: 16px;
  border-style: double;
  border-width: 15px;
- border-color: rgb(226, 72, 175);
+ border-color: rgb(219, 139, 189);
   }
   section + h3{font-size: 1.6rem;
     font-family: Georgia, 'Times New Roman', Times, serif;}
