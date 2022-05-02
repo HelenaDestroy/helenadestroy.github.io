@@ -14,17 +14,15 @@ html {
 /*header */
 header {
 display: flexbox;
-width: 95%;
 max-width: 95%;
 height: 25vh;
 border-bottom: 10px;
 border-bottom-style: double;
 }
 .div-header{
-    width: 100%;
+    width: 95%;
     text-align: center;
-    width: 100%;
-     }
+    }
    .div-header > h1 { font-size: 3.8rem; margin-top: 30px;}
 .div-header > h2 {
     width: 100%;
@@ -34,15 +32,15 @@ border-bottom-style: double;
     font-style: italic;
  }
 .buttons {
-margin-left: 110px;
-display: flexbox;
-height: 60px;
-width: 100%;
+    margin-left: 110px;
+    display: flexbox;
+    height: 60px;
+    width: 100%;
 }
 .button { 
-align-content: center;
+    align-content: center;
     align-items: center;
-    width: 20%; height: 90%;
+    height: 90%;
     margin-right: 5px;
     margin-top: 15px;
     height: 60px;
@@ -60,7 +58,6 @@ align-content: center;
 /*main */
 main {
     max-width: 95%;
-    width: 95%;
     display: flexbox;
     flex-direction: row
 } 
@@ -70,30 +67,54 @@ h2, .career-objetive > h3 {
     text-decoration-thickness: 5px;
     text-decoration-color: rgb(219, 139, 189);  
 }
+.principal{
+    display: flex;
+}
 .personal-details {text-decoration: none;
     display: inline-block; 
     margin-top: 120px;
-    }
+}
 
-    .personal-details > li {
+.personal-details > li {
     list-style-type: none;
-    }
+}
     .div-img{
- margin-right: 100px;
- margin-top: 0px;
- width: 30%;
- display: inline-block;
-    }
+    margin-right: 100px;
+    margin-top: 0px;
+    width: 30%;
+    display: inline-block;
+}
 .img {
-margin-top: 100px;
-margin-left: 40px;
-height: 400px;
-width: auto;
- border-radius: 16px;
- border-style: double;
- border-width: 15px;
- border-color: rgb(219, 139, 189);
-  }
+    margin-top: 120px;
+    margin-left: 40px;
+    height: 400px;
+    width: auto;
+    border-radius: 16px;
+    border-style: double;
+    border-width: 15px;
+    border-color: rgb(219, 139, 189);
+}
+.proyectoboton{
+    width: 32%;
+    display: inline-flexbox;
+}
+.botton {
+    align-content: center;
+    align-items: center;
+    width: 50%; 
+    height: 90%;
+    margin-left: 10%; 
+    margin-top: 10%; 
+   height: 80px;
+    background-color: rgb(36, 35, 35);
+    color: white;
+    font-weight: lighter;
+    border-radius: 16px;
+    box-shadow: rgb(219, 139, 189);
+    border-color: rgb(219, 139, 189);
+    border-width: 8px;
+    font-family:Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    font-size: 1.2rem;}
   section + h3{font-size: 1.6rem;
     font-family: Georgia, 'Times New Roman', Times, serif;}
 section {
@@ -119,36 +140,35 @@ border-top-style:groove;
 margin-bottom: 40px; 
 margin-top: 50px;
 font-family:Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
- text-align: justify;
- display: inline-block;
- text-align: justify;
- text-justify: inter-word;
+text-align: justify;
+text-justify: inter-word;
 margin-left: 0%;
 line-height: 2.5;
 }
 /*footer */
 footer  {
 display: flexbox;
-width: 100%;
-max-width: 100%;
+max-width: 95%;
 min-height: 9vh;
 height: 10vh;
-border-top: 10px;
+border-top: 14px;
 border-top-style: double;
-align-items: center;
-justify-content: center;
+align-items: right;
+justify-content: right;
 }
-footer > p {
-text-align: right;
-margin-right: 60px;
-text-justify: auto;
-height: 90%;
-margin-top: 30px;
-font-size: 1.6rem;
+.footer-p {
+text-justify: right;
+font-size: 1.8rem;
 font-weight: bold;
+width: 80%;
+height: 80%;
+font-family:Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+text-align: justify;
+text-justify: inter-word;
 }    
     
 a:hover{color: blueviolet;} 
 a {
     text-decoration: none;
   }
+
