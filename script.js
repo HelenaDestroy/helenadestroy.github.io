@@ -1,17 +1,15 @@
 //pasar a ingles
+const ingles= document.getElementById("ingles");
+ingles.addEventListener("click", cambioIdioma);
 function cambioIdioma()
 { window.open(["index.html"],["Resumen, English version"]);
 }
-
-const ingles= document.getElementById("ingles");
-ingles.addEventListener("click", cambioIdioma);
  
 //volver a castellano
 function cambioCastellano() { window.open(["index_e.html"],["Curriculum Vitae, Versión en Español"]);
 }
 const castellano = document.getElementById("castellano");
 castellano.addEventListener("click", cambioCastellano);
-
 
 //download button
 
@@ -35,3 +33,5 @@ function openWa(){
 const wa = document.getElementById("whatsapp");
 whatsapp.addEventListener("click", openWa);
 
+
+<button class="button" id="proyectos" type="button" onclick="seeProjects()">See Projects</button> 
