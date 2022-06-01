@@ -14,7 +14,7 @@ castellano.addEventListener("click", cambioCastellano);
 //download button
 
 function downloadResume(){
-window.open(["https://drive.google.com/file/d/1fHT5KUuwSanXdj1oKAfVO5EjcBgJSJOM/view?usp=sharing"],["Resume for Download"]);
+window.open(["https://drive.google.com/file/d/1y6eWKhKsXzomLiDrecmfz_rfv5StTWFR/view?usp=sharing"],["Resume for Download"]);
 
 
 const botond = document.getElementById("download");
@@ -24,7 +24,7 @@ download.addEventListener("click", downloadResume);
 const botonm = document.getElementById("bajar");
 bajar.addEventListener("click", bajarResume);
 function bajarResume(){
-    window.open(["https://drive.google.com/file/d/1wBJsgHX_G6BJ2YwDxxdz-GdV0pFUXbMn/view?usp=sharing"],["Resume for Download"]);
+    window.open(["https://drive.google.com/file/d/1__Gs_26UXkfusyMW1SLJn51zVg9mBN05/view?usp=sharing"],["Resume for Download"]);
 }
 
 //whatsapp
